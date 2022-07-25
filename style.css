@@ -1,0 +1,9 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 55px;
+    color: black;
+}
