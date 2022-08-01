@@ -28,3 +28,88 @@ section {
     background-size: cover;
     background-position: center;
 }
+
+.container {
+    display: flex;
+    gap: 15px;
+}
+.botao{   
+    display: flex;
+    justify-content: center;
+    color: #0c0c0c;
+    font-size: calc(3vw + 13px);
+    user-select: none;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.botaoa{   
+    display: flex;
+    justify-content: center;
+    color: #0c0c0c;
+    font-size: calc(3vw + 13px);
+    user-select: none;
+    margin-top: 354px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+.botaos{   
+    display: flex;
+    justify-content: center;
+    color: #0c0c0c;
+    font-size: calc(3vw + 13px);
+    margin-top: 333px;
+    margin-left: 135px;
+    cursor: pointer;
+}
+.botaod{   
+    display: flex;
+    justify-content: center;
+    color: #0c0c0c;
+    font-size: calc(3vw + 13px);
+    user-select: none;
+    margin-top: 169px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.botaog{   
+    display: flex;
+    justify-content: center;
+    color: #0c0c0c;
+    font-size: calc(3vw + 13px);
+    user-select: none;
+    margin-top: 169px;
+    margin-left: 135px;
+    cursor: pointer;
+}
+
+.botaog{   
+    display: flex;
+    justify-content: center;
+    color: #0c0c0c;
+    font-size: calc(3vw + 13px);
+    user-select: none;
+    margin-top: 169px;
+    margin-left: 135px;
+    cursor: pointer;
+}
+
+.botaoj{   
+    display: flex;
+    justify-content: center;
+    color: #0c0c0c;
+    font-size: calc(3vw + 13px);
+    user-select: none;
+    margin-top: 333px;
+    margin-left: 135px;
+    cursor: pointer;
+}
+.botaoh{   
+    display: flex;
+    justify-content: center;
+    color: #0c0c0c;
+    font-size: calc(3vw + 13px);
+    user-select: none;
+    margin-top: 90px;
+    margin-left: -35px;
+    cursor: pointer;
+}
