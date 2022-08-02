@@ -1,32 +1,21 @@
 'use strict';
 
-// const sons = {
-//     'A': 'boom.wav',
-//     'S': 'clap.wav',
-//     'D': 'hihat.wav',
-//     'F': 'kick.wav',
-//     'G': 'openhat.wav',
-//     'H': 'ride.wav',
-//     'J': 'snare.wav',
-//     'K': 'tink.wav',
-//     'L': 'tom.wav'
-// }
-
-const criarDiv = (texto) => {
-    const div = document.createElement('div');
-    div.classList.add('key');
-    div.textContent = texto;
-    div.id = texto;
-    document.getElementById('container').appendChild(div);
+const sons = {
+    'A': 'ride.wav',
+    'S': 'boom.wav',
+    'D': 'snare.wav',
+    'F': 'kick.wav',
+    'H': 'tom.wav',
+    'J': 'snare.wav',
+    'K': 'openhat.wav',
 }
 
-const exibir = (sons) => Object.keys(sons).forEach(criarDiv);
+const exibir = (sons) => Object.keys(sons).forEach;
 
 const tocarSom = (letra) => {
     const audio = new Audio(`./sounds/${sons[letra]}`);
     audio.play();
 }
-
 const adicionarEfeito = (letra) => document.getElementById(letra)
     .classList.toggle('active');
 
@@ -37,9 +26,7 @@ const removerEfeito = (letra) => {
 };
 
 const ativarDiv = (evento) => {
-
     const letra = evento.type == 'click' ? evento.target.id : evento.key.toUpperCase();
-
     const letraPermitida = sons.hasOwnProperty(letra);
     if (letraPermitida) {
         adicionarEfeito(letra);
@@ -47,7 +34,6 @@ const ativarDiv = (evento) => {
         removerEfeito(letra);
     }
 }
-
 
 exibir(sons);
 document.getElementById('container')
