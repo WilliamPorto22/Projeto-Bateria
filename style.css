@@ -4,8 +4,8 @@ body {
 
 h1 {
     display: flex;
-    margin-top: 10px;
-    font-size: 52px;
+    margin-top: 2px;
+    font-size: 58px;
     color: rgb(247, 238, 238);
     justify-content: center;
     align-items: flex-start;
@@ -15,8 +15,8 @@ section {
     background-image: url(fundo2.jpg);
     background-size: cover;
     background-position: center center;
-    height: 100vh;
     display: flex;
+    height: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -33,9 +33,9 @@ section {
 
 .container {
     display: flex;
-    gap: 15px;
 }
-.botaoa{   
+
+.botaoa {
     display: flex;
     justify-content: center;
     color: #0c0c0c;
@@ -48,19 +48,19 @@ section {
     cursor: pointer;
 }
 
-.botaos{   
+.botaos {
     display: flex;
     justify-content: center;
     color: #0c0c0c;
     font-size: calc(3vw + 13px);
     height: 55px;
     width: 56px;
-    margin-top: 337px;
-    margin-left: 119px;
+    margin-top: 333px;
+    margin-left: 137px;
     cursor: pointer;
 }
 
-.botaod{   
+.botaod {
     display: flex;
     justify-content: center;
     color: #0c0c0c;
@@ -68,25 +68,24 @@ section {
     user-select: none;
     height: 55px;
     width: 56px;
+    margin-top: 174px;
+    cursor: pointer;
+}
+
+.botaoh {
+    display: flex;
+    justify-content: center;
+    color: #0c0c0c;
+    font-size: calc(3vw + 13px);
+    height: 55px;
+    width: 56px;
+    user-select: none;
     margin-top: 170px;
-    margin-left: -18px;
+    margin-left: 126px;
     cursor: pointer;
 }
 
-.botaoh{   
-    display: flex;
-    justify-content: center;
-    color: #0c0c0c;
-    font-size: calc(3vw + 13px);
-    height: 55px;
-    width: 56px;
-    user-select: none;
-    margin-top: 170px;
-    margin-left: 115px;
-    cursor: pointer;
-}
-
-.botaoj{   
+.botaoj {
     display: flex;
     justify-content: center;
     color: #0c0c0c;
@@ -94,11 +93,13 @@ section {
     user-select: none;
     height: 55px;
     width: 56px;
-    margin-top: 344px;
-    margin-left: 110px;
+    margin-top: -98px;
+    margin-bottom: 301px;
+    margin-left: 288px;
     cursor: pointer;
 }
-.botaok{   
+
+.botaok {
     display: flex;
     justify-content: center;
     color: #0c0c0c;
@@ -106,14 +107,74 @@ section {
     user-select: none;
     height: 55px;
     width: 56px;
-    margin-top: 126px;
-    margin-left: -87px;
+    margin-top: -155px;
+    margin-left: 300px;
     cursor: pointer;
 }
 
-.active{
+.active {
     transform: scale(1.3);
     border-color: #060606;
     box-shadow: 0 0 50px #000000;
-    
+
+}
+
+@media(max-width:800px) {
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .img-bateria {
+        width: 257px;
+        height: 199px;
+    }
+
+    .botaoa {
+        margin-top: 125px;
+        margin-left: 18px;
+        height: 27px;
+    }
+
+    .botaos {
+        margin-top: 115px;
+        margin-left: 49px;
+        height: 27px;
+    }
+
+    .botaod {
+        margin-top: 63px;
+        margin-left: 3px;
+        margin-right: 19px;
+        height: 27px;
+    }
+
+    .botaoh {
+        margin-top: 62px;
+        margin-left: -3px;
+        height: 27px;
+        width: 23px;
+    }
+
+    .botaoj {
+        margin-top: -33px;
+        margin-left: 71px;
+        height: 27px;
+        width: 23px;
+    }
+
+    .botaoh {
+        margin-top: 63px;
+        margin-left: 17px;
+        margin-right: 82px;
+        height: 27px;
+        width: 23px;
+    }
+
+    .botaok {
+        margin-top: -266px;
+        margin-left: 74px;
+        height: 27px;
+        width: 23px;
+    }
 }
